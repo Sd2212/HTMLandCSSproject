@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 236, 236);
+}        
+
+#form{
+   position: relative;            
+   margin: 0%;
+   width: 50%;   
+   background-color: rgb(226, 223, 223);
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   text-align: left;
+   margin-bottom: 2%;
+   float: left;   
+}
+
+#img{
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+}
+
+
+
+input{
+   width: 300px;
+   border: none;
+   background-color: white;
+   border-bottom: 1px solid gray;
+   height: 30px;  
+}
+
+
+input[name^="option"]{
+    width: 20px;
+    height: 20px;
+}
+
+article h3::after{
+    content: "*";
+    color: red;
+}
+
+#button{
+    display: block;
+}
+       
+button{
+   display: inline-block;
+   margin: 20px;
+   width: 80px;
+   border-radius: 4px;
+   height: 30px;
+   color: white;
+   font-size: 18px;            
+   border: none;
+   background-color: rgb(175, 102, 243);
+   text-align: left;
+}
+
+article {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+       

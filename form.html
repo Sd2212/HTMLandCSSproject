@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+    <title> Lab Test Form</title>   
+    <link rel="Stylesheet" href="form.css"> 
+</head>
+<body>
+    <section id="form">    
+            
+            <div>
+                <h2>1.Your Contact Details </h2>
+                <form action="">
+                <div>
+                    <article>
+                        <h3> Full Name</h3>
+                        <input type="text" title="name" required spellcheck="true">
+                    </article>
+                    
+    
+                    <article>
+                        <h3>Paitent Id if exists</h3>
+                        <input type="text" title="name" required spellcheck="true">
+                    </article>
+                </div>
+
+                <div>
+                <article>
+                    <h3>Contact Number</h3>
+                    <input type="number" min="6000000000" max="9999999999" required>
+                </article>
+
+                <article>
+                    <h3>Email Id</h3>
+                    <input type="email" required>
+                </article></div>
+            </div>
+              
+            <div>
+                <h2>2. Address</h2>
+                <div>
+                <article>                    
+                    <h3>H:No</h3>
+                    <input type="text" required>
+                </article>
+
+                <article>
+                    <h3>Street</h3>
+                    <input type="text" required>
+                </article>     
+                </div>
+                
+                 <article>
+                    <h3>Area</h3>
+                    <input type="text" required>
+                 </article>    
+
+                <article style="display: block;">
+                    <h3>District</h3>
+                    <select name="District" id="district" required>
+                        <option value="">Choose</option>
+                        <option value="Bangalore Urban">Bangalore Urban</option>
+                        <option value="Bangalore Rural">Bangalore Rural</option>
+                        <option value="Ramnagar">Ramnagar</option>
+                    </select>
+                </article>
+                </div>
+                  <div>
+                <article>
+                    <h3>  Choose the Test Type </h3>
+                    <p>Check atleast one box without fail</p>
+                    <input type="checkbox" id="c5" name="option1" value="CBC" required>
+                    <label for="c5">CBC</label>
+                    <br>
+                    <input type="checkbox" id="c6" name="option2" value="Complete Urine">
+                    <label for="c6">Complete Urine</label>
+                    <br>
+                    <input type="checkbox" id="c5" name="option3" value="Lipid Profile" required>
+                    <label for="c5">Lipid Profile</label>
+                    <br>
+                    <input type="checkbox" id="c5" name="option4" value="TSH" required>
+                    <label for="c5">Thyroid Stimulating Hormone(TSH)</label>
+                    <br>
+                    <input type="checkbox" id="c5" name="option5" value="Glucose Test" required>
+                    <label for="c5">Glucose Test</label>                    
+                </article>
+                </div>
+
+                <div>
+                <article>
+                    <h3>Do you want a hard copy of the report also?</h3>                    
+                    <input   type="radio" id="c1" name="option" value="Yes">
+                    <label class="radio" for="c1">Yes</label>
+                    <br>
+                    <input type="radio" id="c2" name="option" value="No">
+                    <label class="radio" for="c2">No</label>                    
+                </article>
+                </div>
+
+                <article>
+                    <h3>Select Your Comfortable Date and Time</h3>
+                    
+                    <label for="c1">Date: </label>
+                    <input type="date" required>
+                    <br>
+                    <label for="c1">Time:   </label>
+                    <input type="time" required>
+                </article>                
+           <div id="button">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+            </form>        
+    </section>
+    <div id="img">
+        <img src="Images\Lab-Test\lab-test.jpg" alt="blood Sample">
+    </div>
+</body>
+</html>
